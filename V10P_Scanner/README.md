@@ -1,6 +1,6 @@
-# fp_finger
+# V10P_Scanner
 
-The plugin is used for fingerprint input of FP V10P devices.
+The plugin is used for fingerprint input of   V10P devices.
 
 ## Getting Started
 
