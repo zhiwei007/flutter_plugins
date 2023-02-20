@@ -15,7 +15,6 @@ samples, guidance on mobile development, and a full API reference.
 
 As so far,the plugin has been tested in the FP V10P POS(android 11)
 
-# V10P_Scanner
 ## NOTE:
 1.Make sure you have the 'ftrAnsiSDKService-release_1.0.0.0.apk' service installed on your device
 
@@ -30,7 +29,7 @@ As so far,the plugin has been tested in the FP V10P POS(android 11)
 }
 ~~~
 ## Integration in flutter:
-1.config in you yaml,like that:
+1.config in your yaml,like this:
 v10p_scanner:
 path: ../
 
