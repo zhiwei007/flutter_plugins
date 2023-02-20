@@ -1,10 +1,10 @@
 name: v10p_scanner
-description: The plugin is used for fingerprint input of FP V10P devices.
+description: The plugin is used for fingerprint input of  V10P devices.
 version: 0.0.1
-authors: Gordon
+authors: [Gordon wangzhiwei19870905@gmail.com]
 email: wangzhiwei19870905@gmail.com
-homepage: http://localhost:8080
-publish_to: http://localhost:8080
+homepage: https://pub.dartlang.org
+publish_to: https://pub.dartlang.org
 environment:
   sdk: '>=2.18.2 <3.0.0'
   flutter: ">=2.5.0"

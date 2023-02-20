@@ -1,4 +1,3 @@
-import 'dart:ffi';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'v10p_scanner_platform_interface.dart';

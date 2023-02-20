@@ -1,8 +1,10 @@
-import 'dart:ffi';
 import 'dart:typed_data';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:v10p_scanner/src/v10p_scanner_platform_interface.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
+import '../lib/v10p_scanner_platform_interface.dart';
+
+
+
 
 class MockFpFingerPlatform
     with MockPlatformInterfaceMixin

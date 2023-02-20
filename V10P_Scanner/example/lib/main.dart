@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:flutter/services.dart';
-import 'package:v10p_scanner/v10p_scanner_api.dart';
-
+/*step:1 import the the api*/
+import 'package:v10p_scanner/v10p_scanner.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -21,14 +21,17 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
+    /*step:2  init() */
     init();
   }
 
   @override
   void dispose() {
     super.dispose();
+    /*You should call 'closeDevice' when you are not using another interface*/
     closeDevice();
   }
+
 
   Future<void> init() async {
     String? result;
