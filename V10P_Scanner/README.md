@@ -30,8 +30,10 @@ As so far,the plugin has been tested in the FP V10P POS(android 11)
 ~~~
 ## Integration in flutter:
 1.config in your yaml,like this:
+~~~
 v10p_scanner:
 path: ../
+~~~
 
 2.import 'package:v10p_scanner/v10p_scanner.dart';
 
