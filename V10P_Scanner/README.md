@@ -29,9 +29,9 @@ As so far,the plugin has been tested in the FP V10P POS(android 11)
 }
 ~~~
 ## Integration in flutter:
-1.config in your yaml,like this:\n
+1.config in your yaml,like this:\
 ~~~
-v10p_scanner:\n
+v10p_scanner:
 path: ../
 ~~~
 
